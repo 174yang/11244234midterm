@@ -1,0 +1,97 @@
+.card02 {
+    scroll-margin-top: 88px;
+    padding: 40px;
+    max-width: 950px;
+    margin: 30px auto;
+    background-color: #f0e6d6;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.title02, .title03, .work-title, .education-title {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    margin: 25px 0;
+    color: #3b3b3b;
+    text-align: center;
+    padding: 12px;
+}
+
+.work-title, .education-title {
+    background-color: #e7d3a8;
+    border-radius: 12px;
+    color: #5a4632;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.education-txt, .work-txt {
+    margin: 25px auto;
+    max-width: 850px;
+    background-color: #f4e8d4;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.education-txt:hover, .work-txt:hover {
+    transform: scale(1.05);
+}
+
+.education-txt ul, .work-txt ul {
+    padding: 20px;
+    list-style-type: none;
+}
+
+.education-txt ul li, .work-txt ul li {
+    position: relative;
+    margin: 15px 0;
+    padding-left: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #4d3b26;
+    transition: color 0.3s ease-in-out;
+}
+
+.education-txt ul li::before, .work-txt ul li::before {
+    content: "★";
+    position: absolute;
+    left: 0;
+    color: #c28d7b;
+    font-size: 24px;
+    transition: transform 0.2s ease-in-out, color 0.3s ease;
+}
+
+.education-txt ul li:hover::before, .work-txt ul li:hover::before {
+    transform: scale(1.3);
+    color: #a07e5b;
+}
+
+.hov:hover {
+    color: #a07e5b;
+    font-weight: bold;
+    transition: color 0.2s ease-in;
+}
+
+.txt01 {
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #4d3b26;
+    line-height: 1.6;
+}
+
+.txt02 {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #4d3b26;
+    line-height: 1.4;
+}
+
+.pre-txt {
+    font-family: 'Courier New', Courier, monospace;
+    color: #4d3b26;
+    font-weight: bold;
+    cursor: pointer;
+}
